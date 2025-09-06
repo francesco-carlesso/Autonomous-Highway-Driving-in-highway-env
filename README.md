@@ -41,7 +41,7 @@ The project is documented in the paper [`Autonomous_Highway_Driving_in_highway_e
 
 Two baseline approaches are implemented:
 
-1. **Manual Control**  
+1. **Manual Control(`manual_control.py`)**  
    - Human-like control for comparison
    - Achieves high rewards but with unsafe driving maneuvers
 
@@ -65,11 +65,10 @@ Two baseline approaches are implemented:
    - Separates state value and action advantage
    - More proactive than Double DQN but less stable than Vanilla DQN
 
-Training and evaluation scripts:
+Code and weights:
 
-- `DQN_eval.py`, `DoubleDQN_eval.py`, `DuelingDQN_eval.py`  
-- Pretrained models: `dqn_model.pth`, `double_dqn_model.pth`, `dueling_dqn_model.pth`  
-- Training logs: `DuelingDQN_training.csv`  
+- Evaluation scripts: `DQN_eval.py`, `DoubleDQN_eval.py`, `DuelingDQN_eval.py`  
+- Pretrained models: `dqn_model.pth`, `double_dqn_model.pth`, `dueling_dqn_model.pth`    
 
 ---
 
@@ -102,9 +101,6 @@ Plots and visualizations can be generated with [`plots.py`](./plots.py).
 - **Sparse Collisions:** Rare events are difficult for RL to learn without careful tuning.  
 - **Sim-to-Real Gap:** Policies may not directly transfer to real-world driving.  
 - **Scalability:** More vehicles increase state-space complexity; hierarchical or scalable models may be required.
-
----
-
 
 ---
 
