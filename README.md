@@ -1,4 +1,4 @@
-# Autonomous Highway Driving in highway-env
+# Autonomous Highway-Driving in highway-env
 
 This repository contains the implementation and evaluation of Reinforcement Learning (RL) agents trained to drive autonomously on a crowded highway using the **[highway-env](https://github.com/eleurent/highway-env)** simulation environment. Three variants of Deep Q-Networks (DQN) are compared: **Vanilla DQN, Double DQN, and Dueling DQN**. The RL agents are benchmarked against a **heuristic baseline** and **manual control**.
 
