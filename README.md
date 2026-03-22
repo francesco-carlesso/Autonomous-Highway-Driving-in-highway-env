@@ -90,7 +90,7 @@ Observations:
 - Double DQN and Dueling DQN are less stable.
 - Manual control still outperforms all RL methods, but RL demonstrates safe, adaptable driving compared to heuristic baseline.
 
-Plots and visualizations can be generated with [`plots.py`](./plots.py).
+Plots and visualizations can be generated with [`plots.py`](./code/plots.py).
 
 ---
 
