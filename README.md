@@ -15,7 +15,7 @@ Key challenges addressed:
 - Stability and convergence of different DQN variants
 - Evaluating against interpretable baselines
 
-The project is documented in the paper [`Autonomous_Highway_Driving_in_highway_env.pdf`](./Autonomous_Highway_Driving_in_highway_env.pdf).
+The project is documented in the [`Report`](./docs/Autonomous_Highway_Driving_in_highway_env.pdf).
 
 ---
 
