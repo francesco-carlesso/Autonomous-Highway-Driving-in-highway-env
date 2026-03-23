@@ -112,7 +112,7 @@ Plots and visualizations can be generated with [`plots.py`](./code/plots.py).
 
 ---
 
-## 🚀 Reproducibility
+## 📦 Reproducibility
 
 To see the agent and the baseline in action, and also to try out manual control, proceed as follows:
 
