@@ -21,7 +21,6 @@ The project is documented in the [`Report`](./docs/Autonomous_Highway_Driving_in
 
 ## 🏎 Environment Setup
 
-- **Simulator:** [highway-env](https://github.com/eleurent/highway-env)
 - **State representation:** Matrix \(S\) where the first row is the ego vehicle and remaining rows represent other vehicles. Each vehicle has features:
   - Presence (boolean)
   - Normalized position along x and y axes
