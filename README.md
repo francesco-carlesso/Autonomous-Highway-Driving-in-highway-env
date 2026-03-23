@@ -108,6 +108,44 @@ Plots and visualizations can be generated with [`plots.py`](./code/plots.py).
 - Leurent, E. (2018). *An environment for autonomous driving decision-making.* [GitHub](https://github.com/eleurent/highway-env)  
 - Mnih, V., et al. (2015). *Human-level control through deep reinforcement learning.* Nature, 518(7540), 529–533  
 - Van Hasselt, H., Guez, A., Silver, D. (2016). *Deep reinforcement learning with double Q-learning.* AAAI Conference  
-- Wang, Z., Schaul, T., Hessel, M., Van Hasselt, H., Lanctot, M., de Freitas, N. (2016). *Dueling network architectures for deep reinforcement learning.* ICML  
+- Wang, Z., Schaul, T., Hessel, M., Van Hasselt, H., Lanctot, M., de Freitas, N. (2016). *Dueling network architectures for deep reinforcement learning.* ICML
 
+---
+
+## 🚀 Reproducibility
+
+To see the agent and the baseline in action, and also to try out manual control, proceed as follows:
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/francesco-carlesso/Autonomous-Highway-Driving-in-highway-env
+cd Autonomous-Highway-Driving-in-highway-env
+```
+
+### 3. Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run a specific script
+Manual Control:
+```bash
+python code/manual_control.py
+```
+Baseline
+```bash
+python code/baseline.py
+```
+Vanilla DQN
+```bash
+python code/DQN_eval.py
+```
+Double DQN
+```bash
+python code/DoubleDQN_eval.py
+```
+Dueling DQN
+```bash
+python code/DuelingDQN_eval.py
+```
 
