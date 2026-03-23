@@ -122,7 +122,7 @@ git clone https://github.com/francesco-carlesso/Autonomous-Highway-Driving-in-hi
 cd Autonomous-Highway-Driving-in-highway-env
 ```
 
-### 3. Install the dependencies
+### 2. Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
