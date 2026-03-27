@@ -42,7 +42,7 @@ state_dim = state.shape[0]
 action_dim = env.action_space.n
 
 model = DQN(state_dim, action_dim).to(device)
-model.load_state_dict(torch.load("dqn_model.pth", map_location=device))
+model.load_state_dict(torch.load("models/dqn_model.pth", map_location=device))
 model.eval()
 
 # Define the action selection function using the loaded model
