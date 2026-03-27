@@ -1,12 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('DuelingDQN_training.csv')
-mc = pd.read_csv("manual_control_results.csv")
-hp = pd.read_csv("baseline_results.csv")
-duel_dqn = pd.read_csv("dueling_dqn_results.csv")
-double_dqn = pd.read_csv("double_dqn_results.csv")
-dqn = pd.read_csv("dqn_results.csv")
+df = pd.read_csv('data/DuelingDQN_training.csv')
+mc = pd.read_csv("'data/manual_control_results.csv")
+hp = pd.read_csv("'data/baseline_results.csv")
+duel_dqn = pd.read_csv("'data/dueling_dqn_results.csv")
+double_dqn = pd.read_csv("'data/double_dqn_results.csv")
+dqn = pd.read_csv("'data/dqn_results.csv")
 
 plt.plot(dqn["Episode"], dqn["Return"], label="Vanilla DQN", marker="o")
 plt.plot(double_dqn["Episode"], double_dqn["Return"], label="Double DQN", marker="o")
