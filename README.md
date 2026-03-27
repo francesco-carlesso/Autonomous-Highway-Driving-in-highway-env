@@ -89,7 +89,7 @@ Observations:
 - Double DQN and Dueling DQN are less stable.
 - Manual control still outperforms all RL methods, but RL demonstrates safe, adaptable driving compared to heuristic baseline.
 
-Plots and visualizations can be generated with [`plots.py`](./code/plots.py).
+Plots and visualizations can be generated with [`plots.py`](./src/plots.py).
 
 ---
 
@@ -130,22 +130,22 @@ pip install -r requirements.txt
 ### 3. Run a specific script
 Manual Control:
 ```bash
-python code/manual_control.py
+python src/manual_control.py
 ```
 Baseline
 ```bash
-python code/baseline.py
+python src/baseline.py
 ```
 Vanilla DQN
 ```bash
-python code/DQN_eval.py
+python src/DQN_eval.py
 ```
 Double DQN
 ```bash
-python code/DoubleDQN_eval.py
+python src/DoubleDQN_eval.py
 ```
 Dueling DQN
 ```bash
-python code/DuelingDQN_eval.py
+python src/DuelingDQN_eval.py
 ```
 
