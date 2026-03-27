@@ -176,6 +176,6 @@ for t in range(MAX_STEPS):
         episode_return = 0
 
     if t % 500 == 0 and t > 0:
-        agent.save("double_dqn_model.pth")
+        agent.save("models/double_dqn_model.pth")
 
 env.close()
